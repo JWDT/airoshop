@@ -17,6 +17,7 @@ config_defaults = {
 
 c = Config(defaults=config_defaults)
 
+
 @app.route('/')
 def hello_world():
     return 'Hello AiroShop!'
